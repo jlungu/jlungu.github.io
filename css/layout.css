@@ -1065,6 +1065,14 @@ footer .social-links li:first-child {
 }
 .project-title{
   text-align: center;
+
+}.project-title-web{
+  padding-top: 7%;
+  text-align: center;
+}
+.project-title-sms{
+  padding-top: 4.5%;
+  text-align: center;
 }
 .project-header {
   font-size: 35px;
@@ -1337,8 +1345,8 @@ footer .social-links li:first-child {
   margin-bottom: .05%;
 }
 .press-release{
-  max-height: 91%;
-  max-width: 91%;
+  max-height: 39%;
+  max-width: 100%;
 }
 #header-hr{
   color: darkgray;
