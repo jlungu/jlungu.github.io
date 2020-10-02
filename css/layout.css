@@ -1066,7 +1066,12 @@ footer .social-links li:first-child {
 .project-title{
   text-align: center;
 
-}.project-title-web{
+}
+.project-title-wireframer{
+  padding-top: -5%;
+  text-align: center;
+}
+.project-title-web{
   padding-top: 7%;
   text-align: center;
 }
