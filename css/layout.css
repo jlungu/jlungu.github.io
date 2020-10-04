@@ -1060,6 +1060,270 @@ footer .social-links li:first-child {
   font-size: 12px;
   text-align: center;
 }
+.class-card{
+  height: 10%;
+  transition: ease 0.3s all;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 3%;
+  width: 80%;
+  border: 1px solid transparent;
+  background-color: #2b2b2b;
+  border-radius: 5px;
+  color: white;
+  font-weight: lighter;
+}
+.class-card:hover{
+  transition: ease 0.3s all;
+  border: 1px solid #2b2b2b;
+  cursor: pointer;
+  line-height: 0.8;
+  background-color: white;
+}
+.class-card:hover span.oop_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Procedures, arrays, object classes, encapsulation, information hiding, inheritance, polymorphism, file I/O, and exceptions';
+  padding: auto;
+}
+.class-card span.oop_hover:after{
+  color: white;
+  content: 'Object-Oriented Programming';
+}
+
+.class-card:hover span.ds_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Recursion, stacks, queues, lists, binary trees, heaps, priority queues, balanced trees and graphs';
+  padding: auto;
+}
+.class-card span.ds_hover:after{
+  color: white;
+  content: 'Data Structures';
+}
+
+.class-card:hover span.aoa_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Searching, sorting, matrix multiplication, graph algorithms, time/space complexity with Big-O';
+  padding: auto;
+}
+.class-card span.aoa_hover:after{
+  color: white;
+  content: 'Analysis of Algorithms';
+}
+
+.class-card:hover span.comparch_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Processor architecture, internal representation of information, instruction set architectures, control path design, and pipelining';
+  padding: auto;
+}
+.class-card span.comparch_hover:after{
+  color: white;
+  content: 'Computer Architecture';
+}
+
+.class-card:hover span.sysfun_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Compilers, concurrency, performance analysis, memory management, error handling, threaded and socket programming';
+  padding: auto;
+}
+.class-card span.sysfun_hover:after{
+  color: white;
+  content: 'System Fundamentals';
+}
+
+.class-card:hover span.progpar_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Functional programming, basics of type systems, memory management, program/data abstractions, and parallel programming';
+  padding: auto;
+}
+.class-card span.progpar_hover:after{
+  color: white;
+  content: 'Programming Paradigms';
+}
+
+.class-card:hover span.seng_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Web programming, information management, principles for secure computing, software design and development fundamentals';
+  padding: auto;
+}
+.class-card span.seng_hover:after{
+  color: white;
+  content: 'Software Development Principles';
+}
+
+.class-card:hover span.compnet_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Description of application layer, transport layer, network layer and link layer. Architecture of the current Internet';
+  padding: auto;
+}
+.class-card span.compnet_hover:after{
+  color: white;
+  content: 'Computer Networks';
+}
+
+.class-card:hover span.capstone_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Software project management, life-cycle documentation, software maintenance, and consideration of human factor issues';
+  padding: auto;
+}
+.class-card span.capstone_hover:after{
+  color: white;
+  content: 'Software Engineering (Capstone)';
+}
+
+.class-card:hover span.db_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Design of database management systems to obtain consistency, integrity, and availability of data. SQL';
+  padding: auto;
+}
+.class-card span.db_hover:after{
+  color: white;
+  content: 'Database Systems';
+}
+
+.class-card:hover span.compsec_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Cryptography, operating systems security, network security, and language-based security.';
+  padding: auto;
+}
+.class-card span.compsec_hover:after{
+  color: white;
+  content: 'Computer Security Fundamentals';
+}
+
+.class-card:hover span.gt_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Emphasis on solving applied problems, generating functions, recurrence relations, and network flows';
+  padding: auto;
+}
+.class-card span.gt_hover:after{
+  color: white;
+  content: 'Graph Theory';
+}
+
+.class-card:hover span.unix_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Focuses on several aspects of producing commercial-grade system software: efficiency, reliability, portability, security, and survivability. ';
+  padding: auto;
+}
+.class-card span.unix_hover:after{
+  color: white;
+  content: 'Programming in UNIX/C';
+}
+
+.class-card:hover span.stats_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Schematic plots, discrete/continuous probability dist, binomial distribution, normal/t distributions, and confidence intervals';
+  padding: auto;
+}
+.class-card span.stats_hover:after{
+  color: white;
+  content: 'Probability & Statistics';
+}
+
+.class-card:hover span.os_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Structure of modern OS; virtual memory, resource allocation strategies, concurrency, and protection';
+  padding: auto;
+}
+.class-card span.os_hover:after{
+  color: white;
+  content: 'Operating Systems';
+}
+
+.class-card:hover span.ppl_hover:after{
+  color: #2b2b2b;
+  margin-top: -10%;
+  font-size: 11px;
+  content: 'Functional and logic programming, and suitability of various languages for particular programming tasks.';
+  padding: auto;
+}
+.class-card span.ppl_hover:after{
+  color: white;
+  content: 'Principles of Programming Languages';
+}
+
+.legend_coursework{
+  text-align: center;
+  margin-top: -1.5%;
+  margin-bottom: 1%;
+}
+#legend_labels{
+  color: #2b2b2b;
+  font-weight: normal;
+  font-size: 16px;
+  margin-left: 1%;
+  margin-right: 3%;
+}
+#completed_dot{
+  color:  rgb(77, 161, 77);
+}
+#in_progress_dot{
+  color: goldenrod;
+}
+#future_dot{
+  color: gray;
+}
+#currently_learning_icon{
+  color: #2b2b2b;
+  margin-left: 1%;
+  font-size: 12px;
+}
+#legend_skills{
+  text-align: center;
+  margin-bottom: 2%;
+  margin-left: -1%;
+}
+#curr_study{
+  margin-left:1%;
+  color: #2b2b2b;
+  font-size: 14px;
+}
+.java_class{
+  border-left: solid 8px crimson;
+}
+.nocode_class{
+  border-left: solid 8px goldenrod;
+}
+.finished_class{
+  border-left: solid 8px rgb(77, 161, 77);
+}
+.future_class{
+  border-left: solid 8px gray;
+}
+.courses_div{
+  text-align: center;
+}
 .my-cards{
   border-radius: 5px;
 }
@@ -1124,6 +1388,7 @@ footer .social-links li:first-child {
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
+  margin-bottom: -2%;
 }
 
 .skills-sub-header {
