@@ -50,6 +50,7 @@ header:before {
   height: 100%;
 }
 header .banner {
+  animation: fadeIn 0.4s;
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
@@ -142,6 +143,7 @@ header .scrolldown a:hover {
 
 /* nav-wrap */
 #nav-wrap {
+  animation: fadeIn 0.4s;
   font: 12px "opensans-bold", sans-serif;
   width: 100%;
   text-transform: uppercase;
@@ -1061,7 +1063,7 @@ footer .social-links li:first-child {
   text-align: center;
 }
 .class-card{
-  height: 10%;
+  height: 11.5%;
   transition: ease 0.3s all;
   display: inline-block;
   text-align: center;
@@ -1249,28 +1251,28 @@ footer .social-links li:first-child {
   content: 'Probability & Statistics';
 }
 
-.class-card:hover span.os_hover:after{
+.class-card:hover span.scripting_hover:after{
   color: #2b2b2b;
   margin-top: -10%;
   font-size: 11px;
-  content: 'Structure of modern OS; virtual memory, resource allocation strategies, concurrency, and protection';
+  content: 'Principles of scripting languages (Python); Case studies in system admin, web app development, GUI development, text processing. ';
   padding: auto;
 }
-.class-card span.os_hover:after{
+.class-card span.scripting_hover:after{
   color: white;
-  content: 'Operating Systems';
+  content: 'Scripting Languages';
 }
 
-.class-card:hover span.ppl_hover:after{
+.class-card:hover span.linear_hover:after{
   color: #2b2b2b;
   margin-top: -10%;
   font-size: 11px;
-  content: 'Functional and logic programming, and suitability of various languages for particular programming tasks.';
+  content: 'Vectors, vector space';
   padding: auto;
 }
-.class-card span.ppl_hover:after{
+.class-card span.linear_hover:after{
   color: white;
-  content: 'Principles of Programming Languages';
+  content: 'Linear Algebra';
 }
 
 .legend_coursework{
@@ -1329,7 +1331,6 @@ footer .social-links li:first-child {
 }
 .project-title{
   text-align: center;
-
 }
 .project-title-wireframer{
   padding-top: -5%;
@@ -1626,4 +1627,51 @@ footer .social-links li:first-child {
 }
 #color-front-font{
   color: rgb(230, 230, 230);
+}
+
+.proj-card:hover{
+  transition: all 0.4s;
+  text-decoration: none !important;
+  background-color: #e7e7e7;
+  color: white !important;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+}
+.proj-card{
+  text-decoration: none !important;
+  transition: all 0.4s;
+  color: #2b2b2b;
+}
+a, u {
+  text-decoration: none !important;
+}
+a:hover{
+  color: #838C95;
+}
+.proj-title{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232b2b2b' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232b2b2b' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-indicators {
+  color: #2b2b2b;
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
 }
